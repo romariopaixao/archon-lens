@@ -1,0 +1,24 @@
+# Segredos — NUNCA commitar
+.env
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Outputs gerados localmente
+output/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
